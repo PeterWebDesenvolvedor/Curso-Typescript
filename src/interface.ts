@@ -1,0 +1,1 @@
+// Interfaces . Serverm para definir a estrutura de um objeto, quais propriedades ele tem, de que tipo elas são

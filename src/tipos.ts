@@ -1,4 +1,4 @@
-/** Algo essencial no desenvoilviemnto de typescript é saber definir o tipo  de uma variável , método, função , objeto ou alguma expressão.
+/** Algo essencial no desenvolvimento de typescript é saber definir o tipo  de uma variável , método, função , objeto ou alguma expressão.
  * Para isso vamos usar as anotações de tipo: type-annotations
  */
 
@@ -30,3 +30,17 @@ function saudacao(nome: string, idade?: number) {
 }
 
 saudacao("Peterson", 23);
+
+// inferencia de variavel, o typescript ja identifica os tipos das variaveis mesmo nao declarando.
+
+const animal = {
+  name: "Garfield",
+  age: 2,
+};
+
+// TYPE GUARD
+const numeros = [1, 2, 3, 4, 54, 6];
+
+const filter = (value: number) => value < 0;
+
+numeros.filter(filter);
