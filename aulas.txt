@@ -1,0 +1,12 @@
+O que é typescript?
+
+É uma linguagem de programação que se baseia no Javascript, mas adiciona a tipagem estática opcional 
+
+Serve para ajudar os desenvolvedores a criarem codigos mais robustos e mais facil de manter, detectando erros durante o desenvolvimento antes mesmo do código ser executado
+
+O Typescript adiciona uma segurança de tipos para evitar erros comuns , como acessar propriedades de tipos incorretos.
+
+
+
+TYPESCRIPT === JAVASCRIPT 
+
